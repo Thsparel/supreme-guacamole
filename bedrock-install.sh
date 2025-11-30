@@ -5,8 +5,6 @@ echo "Installing dependencies..."
 apt update
 apt install -y zip unzip wget curl
 
-cd /mnt/server
-
 # Clean up previous files
 rm -f versions.html.gz *.bak bedrock-server.zip
 
